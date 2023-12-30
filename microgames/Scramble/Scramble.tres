@@ -1,0 +1,11 @@
+[gd_resource type="TextFile" load_steps=2 format=2]
+
+[ext_resource path="res://core/microgame/metadata/mg_definition.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+title = "Scramble"
+short_hint = "Unscramble"
+credits = [  ]
+input_type = 0
+scene = "res://microgames/Scramble/Scramble.tscn"

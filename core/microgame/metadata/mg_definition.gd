@@ -2,7 +2,7 @@ extends Resource
 class_name MicrogameDefinition
 
 enum InputType {
-    MASH, # TODO - i don't love this for arrows+button but it seems to be the (WarioWare) Gold standard
+	MASH, # TODO - i don't love this for arrows+button but it seems to be the (WarioWare) Gold standard
 }
 
 export var title: String
