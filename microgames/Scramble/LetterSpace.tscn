@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://microgames/Scramble/graphics/m6x11.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://microgames/Scramble/graphics/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Frame_01_Standard.png" type="Texture" id=2]
 [ext_resource path="res://microgames/Scramble/src/LetterSpace.gd" type="Script" id=3]
+[ext_resource path="res://microgames/Scramble/src/Label.gd" type="Script" id=4]
 
 [sub_resource type="DynamicFont" id=1]
 size = 48
@@ -30,5 +31,5 @@ margin_top = 34.0
 margin_right = 71.0
 margin_bottom = 76.0
 custom_fonts/font = SubResource( 1 )
-text = "F"
 align = 1
+script = ExtResource( 4 )
