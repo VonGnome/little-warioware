@@ -5,7 +5,7 @@
 [resource]
 script = ExtResource( 1 )
 title = "Rhythm_game"
-short_hint = "To the beat"
+short_hint = "Fill IT!"
 credits = [  ]
 input_type = 0
 scene = "res://microgames/Rhythm_game/Rhythm_game.tscn"

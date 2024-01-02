@@ -1,4 +1,4 @@
-#Written by Markus
+
 extends Node
 
 

@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://microgames/Rhythm_game/src/Rhythm_game.gd" type="Script" id=1]
 [ext_resource path="res://core/intermission/icon.png" type="Texture" id=2]
 [ext_resource path="res://microgames/Rhythm_game/src/Beater.gd" type="Script" id=3]
 [ext_resource path="res://microgames/Rhythm_game/src/StateMachine.gd" type="Script" id=4]
+[ext_resource path="res://microgames/Rhythm_game/graphics/good job text.png" type="Texture" id=5]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 32, 32 )
@@ -70,6 +71,12 @@ texture = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Beater/Area2D"]
 shape = SubResource( 1 )
+
+[node name="GoodJob" type="Sprite" parent="."]
+visible = false
+position = Vector2( 495, 49 )
+scale = Vector2( 4, 4 )
+texture = ExtResource( 5 )
 
 [connection signal="area_entered" from="StateMachine/Target/Area2D" to="." method="_on_Area2D_area_entered"]
 [connection signal="area_exited" from="StateMachine/Target/Area2D" to="." method="_on_Area2D_area_exited"]

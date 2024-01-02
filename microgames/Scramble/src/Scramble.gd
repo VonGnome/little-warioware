@@ -226,7 +226,9 @@ func _input(event) -> void:
 				print(letterchecker, "letterchecker")
 				print(wordArray,"wordArray")
 				
-				if letterchecker == wordArray: is_success = true
+				if letterchecker == wordArray: 
+					is_success = true
+					$GoodJob.visible = true
 				else: letterchecker.clear() 
 			pass
 	

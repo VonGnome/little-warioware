@@ -1,4 +1,26 @@
-# Little Warioware (working title)
+# Little Warioware (Exam version)
+
+## My contribution (and exam fluff)
+This is a fork of NEW-CYLANDIAs Little Warioware project, wherein I have built two microgames, scramble and rhythm, for my programming for designers exam. So if you are a teacher looking for my contributions **you will find them in the folders labeled Scramble and Rhythm_game**. As such I want to first thank Cylandia for the idea, and all the other contributers for the groundwork of little Warioware. but then, as is tradition for aesthetic programmers (go read that book its good) I want to do a little reflection, and say a sorry for deleting the other microgrames on this branch, it was (imo) a necesseity for the sake of showing off at the exam, they are still intact on the other branch1
+
+### Why this project?
+The idea for this project sprung from two sources: the first was *Stress* as the two other big projects loomed over the fall semester and the second was that I wanted to work on a Godot project as I have previously worked with [p5.js](https://p5js.org/) (javascript) and Unity, so in an effort to challenge myself and in an attempt to get more FOSS into my toolset I chose Godot as my engine, found the Wario ware project through twitter (rip) and got off to the races with a *very* minimum viable product.
+
+### some thoughts on Godot and choosing a game engine
+While this years [Unity news](https://www.rockpapershotgun.com/unitys-per-install-fee-will-be-based-on-estimates-and-unity-may-not-spot-fraudulent-installs-in-advance) certainly made my decision easier to justify, and the exams (supposed) engine neutrality allowed it, I still felt as many of my peers chose Unity, that I was doing something wrong. but why? open source software should be normalized, and Godot certainly feels very good to use, and with projects such as little warioWare and [Little Mario](https://github.com/a-little-org-called-mario/a-little-game-called-mario) there is plenty of reason for developers to switch over as well as for teachers to do the same. And it is maybe that group, teachers, who I am especially curious about. An argument made in the case of Unity is that it is the leading game engine in the industry, but first does such a monolithic thing as **the** games industry even exist? arguably [no](https://mitpress.mit.edu/9780262545402/the-videogame-industry-does-not-exist/) its should rather be understood through the lens of a disparate grouping of artist, atleast when it comes to the indie scene. Secondly say the industry does exist? is Unity then even the most used? The only article I could find says, [kind of](https://www.gamedeveloper.com/production/which-are-the-most-commonly-used-game-engines-) it is on Itch.IO but Unreal takes the cake on Steam. And this is of course games released. Games and especially AAA games take years to build, so if we choose the engine to teach people to use based on yesterday, who is to say it will be the engine used tomorrow?
+
+### "Solution"
+Maybe then, the argument for engine choice should be one of a desired future, rather than a purely plausible one. Since teachers are in a position to **teach** students about new engines, tools and perspectives. The university as an institution is the perfect place to learn and experiment with the engine that teachers want to see used more. And to still make an argument for those valuing a job, the largest percent of games on steam are made with "another engine" and companies use proprietary tools all the time, so learning how to learn is going to be the most useful tool in a programmers toolbox (and especially a designer/programmers), or in other words, teaching how to get [over mount stupid](https://www.youtube.com/shorts/8XYDQlQUBnw?feature=share). So, the solution at the time of writing this is to learn Godot, not because it will be the indie engine of tommorow (although it might be that) but because it alligns with my own value of appreciating FOSS and because it at the moment, is the least likely to become [enshittified] https://www.wired.com/story/tiktok-platforms-cory-doctorow/.  
+
+
+
+
+
+
+
+
+## Project README
+For posterity, and for informations sake I have chosen to leave this here, I HAVE NOT WRITTEN THIS!
 
 ### 🎮 [Play on itch.io!](https://new-cylandia.itch.io/little-warioware)
 ### 🎙️ [Join our Discord Server!](https://discord.gg/jfmYPE3qV7)

@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://microgames/Scramble/src/Scramble.gd" type="Script" id=1]
 [ext_resource path="res://microgames/Scramble/LetterSpace.tscn" type="PackedScene" id=2]
 [ext_resource path="res://microgames/Scramble/graphics/Complete_GUI_Essential_Pack_Free_Version/01_Basic_Collection/01_Flat_Theme/Sprites/UI_Flat_Select_02a3.png" type="Texture" id=3]
-[ext_resource path="res://microgames/pixelart/graphics/crosshair.png" type="Texture" id=4]
+[ext_resource path="res://microgames/Scramble/graphics/crosshair.png" type="Texture" id=4]
+[ext_resource path="res://microgames/Scramble/graphics/good job textSC.png" type="Texture" id=5]
 
 [node name="Scramble" type="Node2D"]
 script = ExtResource( 1 )
@@ -11,19 +12,25 @@ script = ExtResource( 1 )
 [node name="Letter" parent="." instance=ExtResource( 2 )]
 anchor_left = 1.0
 anchor_right = 1.336
-margin_left = 329.0
-margin_top = 311.0
-margin_right = 438.0
-margin_bottom = 417.0
+margin_left = 132.0
+margin_top = 741.0
+margin_right = 241.0
+margin_bottom = 847.0
 
 [node name="SelectorSprite" type="Sprite" parent="."]
-position = Vector2( 627, 249 )
+position = Vector2( 1367, 371 )
 scale = Vector2( 4.64844, 4.31743 )
 texture = ExtResource( 3 )
 
 [node name="Crosshair" type="Sprite" parent="."]
-position = Vector2( 385, 366 )
+position = Vector2( 514, 741 )
 scale = Vector2( 7.125, 6.9375 )
 z_index = 1
 texture = ExtResource( 4 )
 centered = false
+
+[node name="GoodJob" type="Sprite" parent="."]
+visible = false
+position = Vector2( 513, 89 )
+scale = Vector2( 8, 8 )
+texture = ExtResource( 5 )

@@ -5,24 +5,21 @@ extends Microgame
 
 var isIntarget = false
 
+## we do this to "reverse the order"
 enum States {
 		easy = 2, 
 		medium = 1, 
 		hard = 0
 }
-enum TurretState {
-	Scanning,
-	Firing,
-	Recharging
-}
+
 
 var currentState : int = States.easy
 var tweenEnd
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	
-	
 	var targets = $StateMachine.get_children()
+	# this could have been a matchstatement, we do that later
 	if is_difficulty_medium():
 		currentState = States.medium
 		pass
@@ -56,6 +53,8 @@ func _physics_process(delta):
 
 func _input(event):
 	if event.is_action_pressed("mg_action") and isIntarget == true:
+		$GoodJob.visible = true
+		
 		is_success = true
 		pass
 
